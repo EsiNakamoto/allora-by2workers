@@ -91,12 +91,12 @@ allorad version
 * You can use your keplr seed-phrase to recover your wallet or create a new one
 ```console
 # Recover your wallet with seed-phrase
-allorad keys add testkey --recover
+allorad keys add testkey --recover --keyring-backend file
 
 #OR
 
 # Create a new wallet
-allorad keys add testkey
+allorad keys add esin --keyring-backend file
 ```
 
 ## Get Faucet
