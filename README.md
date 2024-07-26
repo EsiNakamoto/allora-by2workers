@@ -96,7 +96,7 @@ allorad keys add testkey --recover --keyring-backend file
 #OR
 
 # Create a new wallet
-allorad keys add esin --keyring-backend file
+allorad keys add testkey --keyring-backend file
 ```
 
 ## Get Faucet
