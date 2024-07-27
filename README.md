@@ -327,7 +327,7 @@ docker compose up -d --build
 ### Check running docker containers
 ```console
 # Ensure you are in the right directory
-cd $HOME && cd allora-chain/basic-coin-prediction-node
+cd $HOME && cd basic-coin-prediction-node
 
 # Check worker 1 logs
 docker compose logs -f worker-1
