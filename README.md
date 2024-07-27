@@ -366,7 +366,7 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
             }
         ],
         "number_of_nodes": -1,
-        "timeout": 2
+        "timeout": 10
     }
 }' | jq
 ```
@@ -395,7 +395,7 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
             }
         ],
         "number_of_nodes": -1,
-        "timeout": 2
+        "timeout": 10
     }
 }' | jq
 ```
